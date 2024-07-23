@@ -1,0 +1,19 @@
+#indice li>a:hover{
+    background-color: White;
+    color: Gray;
+    text-transform: uppercase;
+    font-style: italic;
+    color:red ;
+    text-decoration:none ;
+    border-style: solid ;
+    border-color: black;
+    font-size: teal;
+    font-style: normal;
+
+
+}
+.link {
+    color: green;
+    text-decoration:none ;
+
+}

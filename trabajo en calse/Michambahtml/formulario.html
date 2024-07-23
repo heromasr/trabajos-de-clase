@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+
+</head>
+
+<body>
+    <h3>Mi primer formulario</h3>
+    <form action="">
+        <input type="text" name="pelicula" value="titanic" size="20" disabled="disabled"><br><br>
+        <input placeholder="ingrese su nombre"><br>
+        <input type="radio" name="genero" id="idgenero" checked="checked">
+        <label for=""></label>
+
+        <p>
+            <input type="checkbox">
+        </p>
+        <p><input type="password">
+        </p>
+        <p>
+            <input type="submit" value="enviar"><br><br>
+            <input type="file"><br><br>
+            <label for="email">Digita tu email</label>
+            <input type="email" name="email"><br><br>
+            <label for="buscar">Digita tu email</label>
+            <input type="search" id="buscar" name="buscar" placeholder="Buscar...">
+            <input type="submit" value="Ir"><br><br>
+            <input type="url" placeholder="Url"><br><br>
+            <input type="tel" placeholder="Teléfono"><br><br>
+            Califique el desempeño 1
+            <input type="range" min="1" max="10" step="2" value=1><br><br>
+            <input type="color" name="favcolor"><br><br>
+            <input type="date" name="fnacimiento">
+            <select name="transporte" size="4" multiple="multiple">
+                <option value="0">-Seleccione opción-
+                </option>b  
+                <option value="1">Coche</option>
+                <option value="2" selected="selected">Avión</option>
+                <option value="3">Tren</option><br><br>
+                <textarea name="observacion" cols="100" rows="10">
+Aquí escribimos nuestro texto extenso
+que puede ocupar múltiples líneas, el
+cual se verá muy bien en este tipo de
+componente!
+</textarea>
+            </select>
+        </p>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+/* Estilos para la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgb(0, 213, 255),rgb(0, 255, 4));
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    
+    background: linear-gradient(red,yellow)
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    justify-content: space space-between;
+    margin-right: 80px;
+}
+
+nav a {
+    color: #13a836;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #7b0b0b;
+}
+
+/* Estilos para la sección principal */
+#seccion1 {
+    position: relative;
+    top: 9%;
+    left: 0%;
+    width: 70%;
+    height: 80%;
+    background-image: linear-gradient(to bottom, #f0f0f0, #ccc);
+    background-size: 100% 300px;
+    background-position:  100%;
+    padding: 2em;
+    text-align: center;
+    background: repeating-radial-gradient(circle, rgb(64, 0, 255), rgb(0, 136, 255), rgb(0, 107, 128));
+}
+
+#seccion1 h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#seccion1 p {
+    font-size: 1.2em;
+    margin-bottom: 2em;
+}
+
+/* Estilos para la sección lateral */
+#sidebar {
+    position: absolute;
+    top: 9%;
+    left: 74.5%;
+    width: 20%;
+    height: 80%;
+
+    background-color: #f0f0f0;
+    padding: 2em;
+    border: 1px solid #ccc;
+    float: left;
+    margin-right: 2em;
+    background: radial-gradient(circle, rgb(0, 4, 255), rgb(0, 255, 47), rgb(0, 107, 128));
+}
+
+#sidebar form {
+    margin-bottom: 2em;
+}
+
+#sidebar label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+#sidebar input[type="text"],
+#sidebar input[type="email"] {
+    width: 100%;
+    height: 2em;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+}
+
+#sidebar input[type="submit"] {
+    width: 100%;
+    height: 2.5em;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 0.5em;
+
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#sidebar input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+/* Estilos para el pie de página */
+footer {
+    position: absolute;
+    top:100%;
+    left: 0%;
+    right: 100px;
+    width: 100%;
+    height: 10%;
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
+.img {
+    float: center;
+    width: 11%;
+
+}

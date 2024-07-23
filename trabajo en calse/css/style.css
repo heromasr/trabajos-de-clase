@@ -1,0 +1,32 @@
+#caja1{
+    width: 100px;
+    height: 70px;
+    display: block;
+        background: rgb(53, 168, 56);
+    }
+    #caja2{
+    width: 150px;
+    height: 100px;
+    display: block;
+        background: rgb(45, 31, 115);
+        position: relative;
+        top: 40px;
+left: 30px;
+    }
+    #caja3{
+    width: 130px;
+    height: 90px;
+    display: block;
+        background: rgb(83, 14, 26);
+
+
+    }
+#caja4{
+width: 130px;
+height: 90px;
+display: block;
+    background: rgb(195, 43, 132);
+
+
+}
+

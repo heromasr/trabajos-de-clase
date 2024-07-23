@@ -1,0 +1,32 @@
+    .contenedor{
+        display:grid;
+        height: 100vh;
+        grid-template-columns:repeat(3, 1fr) ;
+        grid-template-rows:repeat(1, 2fr) (1, 2fr);
+
+    }
+    .caja{
+        background: rgb(221, 11, 221);
+        border: 1px solid white;
+        padding: 1rem;
+        font-family:san;
+        color:black;
+        text-align: center;
+
+    }
+    .uno{
+        grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end:1;
+    }
+    
+    
+    .dos{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+
+    }
+  

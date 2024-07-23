@@ -1,0 +1,13 @@
+@font-face{
+    font-family:"roror" ; src: url(../fuentes/battipaglia/Battipaglia.otf);
+
+    font-family: "maria"; src: url(../fuentes/battipaglia/Slugs\ Racer.ttf)
+}
+h1{
+    font-family: roror, sa;
+
+
+}
+p{
+    font-family: maria;
+}

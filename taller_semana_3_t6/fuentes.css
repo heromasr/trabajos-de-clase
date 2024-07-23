@@ -1,0 +1,133 @@
+@font-face{
+
+
+
+    font-family:"maria"; src: url(./fuentes/battipaglia/Battipaglia.otf);
+}
+@font-face{
+
+    font-family:"r"; src: url(./fuentes/battipaglia/GrandParadiso-Regular.otf);
+}
+@font-face{
+
+    font-family:"z" ;src: url(./fuentes/battipaglia/varsity_regular.otf);
+}
+    
+body{
+    background:rgb(87, 190, 194); 
+}
+header {
+    padding: 10px;
+    background: #333334;
+    color: #FFFFFF;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+h1 {
+    font-family: "maria";
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+
+}
+nav {
+    justify-content: flex-start;
+    background: #cdd5d1;
+    padding: 1%;
+    padding-left: 5px;
+    letter-spacing: 1px;
+    word-spacing: 200x;
+    height: 50px;
+    font-family: "r"
+
+
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-family: "r"
+
+
+}
+
+nav a {
+    color: #0e0404;
+    font-weight: lighter;
+    font-family: "roro";
+}
+nav a:hover{
+    color: #4459a7;
+    font-weight: bold;
+    font-family: "maria";
+
+}
+h2 {
+    font-family: "r";
+}
+aside {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background: #333334;
+    color: #FFFFFF;
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+
+
+.t{
+
+    font-size: 100%;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+
+}
+
+aside a {
+    color: #fafafa;
+    font-weight: lighter;
+    font-family: "maria";
+    margin-left: 20px;
+    
+    
+}
+aside a:hover{
+    color: #06759e;
+    font-weight: bold;
+}
+main {
+    padding: 10px;
+    background: #333334;
+    color: #FFFFFF;
+
+
+    font-family:"" ;
+}
+.p1{
+    font-family:"z" ;
+    display: flex;
+    justify-content:start;
+}
+.p2{
+    font-family:"z" ;
+    display: flex;
+    justify-content:start;
+}
+.p3{
+    font-family:"r" ;
+    display: flex;
+    justify-content:start;	
+}
+footer{
+    padding: 10px;
+    background: #424274;
+    color: #FFFFFF;
+}

@@ -1,0 +1,21 @@
+body {
+    background-image: url(./imagenes/mondrian.jpg);
+}
+
+.cabecera {
+
+    background-image: url(./imagenes/monet2.jpg);
+}
+
+#indice {
+    background-image: url(./imagenes/vangogh2.jpg);
+}
+
+.contenido {
+    background-image: url(./imagenes/water-fizzle.jpg);
+}
+
+#pie {
+    background-image: url(./imagenes/water.jpg);
+
+}

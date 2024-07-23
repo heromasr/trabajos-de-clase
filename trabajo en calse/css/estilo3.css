@@ -1,0 +1,19 @@
+.fondo{
+    background-image: url(../img/galaxy.png);
+    background-size: cover;
+    background-position: center;
+    height: 10vh;
+    width: 200vh;
+    display: flex;
+    color: antiquewhite;
+    justify-content:center;
+    align-items: center;
+    
+
+}
+body{
+    background-image: url(../img/galaxy.png);
+    background-repeat:repeat-y ;
+    background-position: center center;
+    background-size: 10px 10px 10px 10px;
+}

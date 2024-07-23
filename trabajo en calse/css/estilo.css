@@ -1,0 +1,45 @@
+nav {
+    background: rgb(59, 123, 65);
+    column: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(233, 255, 159);
+}
+
+nav ul li :hover {
+    background: rgb(4, 15, 32);
+}
+
+h1 {
+    color: blueviolet;
+}
+
+p {
+    color: rgb(78, 38, 80);
+}
+footer {
+    background: rgb(98, 98, 156);
+
+}
+.a1 {background: rgb(210, 138, 138);
+}

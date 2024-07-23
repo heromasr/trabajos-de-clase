@@ -1,0 +1,27 @@
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+}
+header{
+    background-color: rgb(157, 232, 224);
+    height:100px ;
+}
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height:100px ;
+    margin: 0;
+}
+.loco{
+    display: flex ;
+}
+.isi{
+    display: flex ;
+    flex-wrap: wrap;
+}
+article{
+    padding: 10px;
+    margin: 10px;
+    color:black;
+    background: aqua;
+    flex: 200px;
+}

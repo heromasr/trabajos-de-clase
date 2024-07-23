@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: white;
+}
+header{
+    padding: 30px;
+    margin-bottom: 5px;
+    background: #31c716;
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+
+.contenedor{
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contenedor p{
+    color: black;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 1em;
+    font-weight: bold;
+
+
+}
+
+.logo{
+    width: 100px;
+    border-radius: 5px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+nav{
+    justify-content: flex-start;
+    background: #345a47;
+    padding: 1%;
+    padding-left: 5px;
+    letter-spacing: 1px;
+    word-spacing: 200x;
+    height: 50px;
+    
+}
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+
+
+}
+nav li{
+
+    margin-left: 20px;
+}
+nav a {
+    color: #FFFFFF;
+    font-weight: lighter;
+}
+nav a:hover{
+    color: #343c5a;
+    font-weight: bold;
+}
+.banner{
+    border-radius :5px ;
+    max-width: 100%;
+    height: auto;
+    width:auto ;
+}
+.card{
+
+    border-radius: 25px;
+    margin: 10px;
+    padding: 20px;
+    min-width: 250px;
+}
+.card:nth-child(1){
+    border: #d5ec6d 5px solid;
+    background : #bec62d;
+    border-radius:50px 1px 50px 1px;
+}
+.card:nth-child(2){
+    border: #d06dec 5px solid;
+    background : #650a6a;
+    border-radius:50px 1px 50px 1px;
+}
+.card:nth-child(3){
+    border: #4b53c6 5px solid;
+    background : #137fcc;
+    border-radius:50px 1px 50px 1px;
+
+}
+.card h2{
+    margin-top: 0;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;}
+
+    
+
+.imangen{
+    width: 100px;
+    border-radius: 5px;
+    display: flex;
+    max-width: 100%;
+    height: auto;
+
+}
+.seccion2{
+    
+        padding: 1px;
+        margin: 10px;
+        background:#6d6c6c;
+        min-width: 250py;
+        box-shadow: 0 4px 8px #333; 
+
+}
+.seccion2A{
+    margin: 9px;
+    padding-left:10px;
+    padding: 10px;
+    background:rgb(151, 149, 149);
+}
+.rating{
+    display: inline;
+    margin: 20px;
+}
+input[type="radio"]{
+    display: none;
+
+}
+label{
+    font-size: 20px;
+    color: aliceblue;
+    cursor: pointer;
+}
+input[type="radio"]:checked + label{
+    color: burlywood;
+}
+
+    
+    
