@@ -1,0 +1,41 @@
+{
+    "tienda": "surtimax",
+    "fecha": "2024-07-31",
+    "numero de factura": "001",
+    "clientes": {
+        "id":2020,
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "direccion": "Carrera 123 # 45-67",
+        "telefono": "1234567890",
+        "email": "mamam@gmail.com"	
+    },
+    "detalle": [
+
+        {
+            "id": 1,
+            "nombre": "Producto 1",
+            "descripcion": "Producto de gran calidad",
+            "precio": 100,
+            "cantidad": 2
+        },
+        {
+
+            "id": 2,
+            "nombre": "Producto 2",
+            "descripcion": "Producto de excelente calidad",
+            "precio": 200,
+            "cantidad": 1
+
+        },
+        {
+            "id": 3,
+            "nombre": "Producto 3",
+            "descripcion": "Producto de buena calidad",
+            "precio": 50,
+            "cantidad": 3
+        }
+    ],
+    "total":9900,
+    "metodo_pago": "efectivo"  
+}
